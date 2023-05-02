@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Alcides 02</title>
+</head>
+<body>
+    <form method="POST" action="http://aplicacoesparainternet.siteoficial.ws/validaDados.php"><!--enviar os dadudos da tabela-->
+        RGM: <Input type="text" name="rgm" required></Input><br>
+        Ano de Nascimento: <Input type="text" name="ano" required pattern="[0-9]{4}"></Input><br><!--os numerais limitam o usuario-->
+        Peso: <Input type="text" name="peso" required pattern="[0-9]+[.][0-9]+"></Input><br><!--deixar o + antes do ponto diz que precisa deixar um numero antes da virgula-->
+        Altura: <Input type="text" name="altura" required pattern="[0-9]+[.][0-9]+"></Input><br>
+        Curso: <br>
+        <select name="curso" required><!-- cria a lista para escolha   -->
+            <option hidden>Selecione o curso</option>
+            <optgroup label="Anália Franco"><!-- outgroup label nao pode selecionar e fica em negrito-->
+                <option value="AF_ADS">AF ADS</option>
+                <option value="AF_CCP">AF CCP</option>
+            </optgroup>
+            <optgroup label="São Miguel">
+                <option value="SM_ADS">SM ADS</option>
+                <option value="SM_CCP">SM CCP</option>
+            </optgroup>
+        </select><br>
+
+
+    <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
