@@ -1,0 +1,31 @@
+1)
+select * from cadastro where nome like 'M%'
+
+2)
+select * from cadastro where nome like 'Marcelo'
+
+3)
+select nome,sobrenome from cadastro where nome not in ('Carlos','Fernando')
+
+4)
+select * from cadastro where salario <> 1000
+
+5)
+select t.employee_id as "EMP#",t.first_name as "FNA#",t.last_name as "LNA#",t.email as "EMA#",t.phone_number as "PHO#",t.hire_date as "HIR#",t.job_id as "JOB#",t.salary as "SAL#",t.commission_pct as "COM#", t.manager_id as "MAN#",t.department_id as "DEP#" from hr.employees t
+
+6)
+select last_name,salary from hr.employees where salary >12000
+
+7)
+select last_name,department_id from hr.employees where department_id in('20','50')
+order by first_name
+
+8)
+select func_id,nome,sobrenome, salario*1.10 as "SALARIO",id_departamento from funcionarios where func_id in ('5')
+
+9)
+select count (*) from departamentos
+
+10)
+drop table funcionarios
+drop table departamentos
