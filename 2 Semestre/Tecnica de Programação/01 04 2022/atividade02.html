@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let altura = parseInt(prompt("Digite a altura"));
+        let peso = parseInt(prompt("Digite peso"));
+        
+        if (altura<=1.19){
+            if(peso<=60){
+                document.write("Classificação A");
+            }else if(peso<=90){
+                document.write("Classificação D");
+            }if(peso >90){
+                document.write("Classificação G")
+            }
+        }
+        if (altura>1.20 && altura<=1.70){
+            if(peso<=60){
+                document.write("Classificação B");
+            }else if(peso<=90){
+                document.write("Classificação E");
+            }if(peso >90){
+                document.write("Classificação H")
+            }
+
+        }if(altura>1.70){
+            if(peso<=60){
+                document.write("Classificação C");
+            }else if(peso<=90){
+                document.write("Classificação F");
+            }if(peso >90){
+                document.write("Classificação I")
+            }
+        }
+
+    </script>
+</body>
+</html>

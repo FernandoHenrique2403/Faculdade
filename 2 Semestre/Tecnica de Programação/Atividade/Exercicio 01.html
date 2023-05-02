@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=sc, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let termos = prompt("Quantos Termos")
+        let num1 = 2
+        let num2 = 7
+        let num3 = 3
+        let i = 4
+        let vals = [];
+        while (i<=termos){
+            i++
+            vals.push(num1*=2)
+            if(i<=termos){
+                vals.push(num2=num2*3)
+                i++
+            }if(i <= termos){
+                vals.push(num3=num3*4)
+                i++
+            }
+        }document.write("2,7,3,"+vals.join(","))
+    </script>
+</body>
+</html>

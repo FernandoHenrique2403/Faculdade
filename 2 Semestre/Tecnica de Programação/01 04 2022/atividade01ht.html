@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let codigo = parseInt(prompt("Codigo Função de 1 a 5"));
+        let salario =parseInt(prompt("Salario")) ;
+        let novoSalario = 0;
+        if (codigo==1){
+            novoSalario = salario*1.50;
+            console.log("o Salario é "+ novoSalario);
+
+        }else if (codigo==2){
+            novoSalario = salario*1.35;
+            console.log("o Salario é "+ novoSalario);
+
+        }else if (codigo==3){
+            novoSalario = salario*1.20;
+            console.log("o Salario é "+ novoSalario);
+        }else if(codigo==4){
+            novoSalario = salario*1.10
+            console.log("o Salario é "+ novoSalario);
+        }if(codigo==5){
+            novoSalario = salario
+            console.log("Salario nao teve aumento e se manteve em : "+ novoSalario);
+        }
+
+    </script>
+</body>
+</html>
