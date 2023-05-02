@@ -1,0 +1,43 @@
+#titulo{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+
+.card{
+    border-radius: 20px ;
+    border: 1px solid black;
+    width: 300px;
+    box-shadow: 0 0 10px wheat;
+    margin: auto;
+    background-color: white;
+    display: inline-block;
+}
+img{
+    width: 275px;
+    height: 200px;
+    padding: 2px;
+    margin: 10px;
+
+}
+
+p{
+    text-align:justify;
+    padding: 10px;
+    
+}
+.card,figcaption{
+    text-align: center;
+}
+.card,a{
+    text-align: left;
+}
+
+h1{ 
+    text-align: center;
+}
+body{
+    text-align: center;
+}

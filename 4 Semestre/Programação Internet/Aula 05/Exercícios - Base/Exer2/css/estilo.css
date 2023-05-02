@@ -1,0 +1,51 @@
+body{
+    font-family: cursive;
+}
+
+figure{
+    width: 300px;
+    margin:auto;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+
+}
+#img1{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom: 4px solid black;
+}
+h1, .dist{
+    display:inline-block;
+    width: 49%;
+}
+h1{
+    font-size: 20pt;
+    margin:0;
+    padding:0;
+}
+.dist{
+    text-align: right;
+}
+.estrelas img{
+    width: 100px;
+}
+
+.dias{
+    text-align: center;
+
+}
+.clock,.horario{
+    display: inline-block;
+    vertical-align:middle;
+}
+.horario *{ 
+    display: inline-block;
+    width: 60px;
+    line-height: 30px;
+}
+.reserva{
+    text-align: center;
+    padding: 20px;
+    color: #597de0
+}

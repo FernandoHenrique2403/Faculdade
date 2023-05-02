@@ -1,0 +1,29 @@
+header{
+    background-color: #191970 ;
+    width: auto;
+    height: 50px;
+    color: white;
+   -left: 20px;
+}
+#fotos{
+    text-align: center;
+    width: 800px;
+    margin:auto;
+}
+figure{
+    display: inline-block;
+    border: solid black 2px;
+    padding: 10px;
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    background-color: #191970;
+    color: white;
+    height: 50px;
+    padding-top: 10px;
+}
+figure img{
+    width: 300px;
+}

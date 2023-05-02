@@ -1,0 +1,36 @@
+body{
+  text-align: center;
+}
+.photo, img{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+
+}
+.photo1, img{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+
+}
+.photo2, img{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+
+}
+#gallery,div{
+  display: inline-block;
+}
+
+
+.photo1 img:hover {
+  box-shadow: 1px 1px;
+  border-radius: 2px;
+}
+.back{
+  display: none;
+}
+.back:hover{
+  display:contents;
+}
